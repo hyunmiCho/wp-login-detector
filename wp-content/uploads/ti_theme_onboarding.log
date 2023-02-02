@@ -1,0 +1,17 @@
+[16/Jan/2023:13:41:21] (I): WordPress Instance Info:
+[16/Jan/2023:13:41:21] (I): Home URL : http://10.3.1.242
+[16/Jan/2023:13:41:21] (I): Site URL : http://10.3.1.242
+[16/Jan/2023:13:41:21] (I): WordPress Version : 6.1.1
+[16/Jan/2023:13:41:21] (I): Onboarding Version : 1.1.30
+[16/Jan/2023:13:41:21] (I): Multisite : No
+[16/Jan/2023:13:41:21] (I): Server Info : nginx/1.10.3
+[16/Jan/2023:13:41:21] (I): PHP Version : 7.4.33
+[16/Jan/2023:13:41:21] (I): HTTPS : No
+[16/Jan/2023:13:41:21] (I): PHP Max Execution Time : 30
+[16/Jan/2023:13:41:21] (I): PHP Max Input Vars : 1000
+[16/Jan/2023:13:41:21] (I): Max Upload Size : 2097152
+[16/Jan/2023:13:41:21] (I): Plugins:
+[16/Jan/2023:13:41:21] (I): [PLUGIN] CriminalIP : v1.0 (csson)
+[16/Jan/2023:13:41:21] (I): [PLUGIN] Image optimization service by Optimole : v3.5.4 (Optimole)
+[16/Jan/2023:13:41:21] (I): [PLUGIN] Otter – Page Builder Blocks &amp; Extensions for Gutenberg : v2.2.0 (ThemeIsle)
+[16/Jan/2023:13:41:21] (I): [PLUGIN] Templates Patterns Collection : v1.1.30 (ThemeIsle)

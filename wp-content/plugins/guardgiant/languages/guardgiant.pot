@@ -1,0 +1,671 @@
+# Copyright (C) 2020 GuardGiant Brute Force Protection
+# This file is distributed under the same license as the GuardGiant Brute Force Protection plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: GuardGiant Brute Force Protection 2.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/guardgiant\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-26T16:34:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: guardgiant\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "GuardGiant Brute Force Protection"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.guardgiant.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Security plugin with 100% brute force protection that doesn't lock out genuine users."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:72
+msgid "GuardGiant"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:82
+#: admin/class-guardgiant-admin.php:83
+#: admin/class-guardgiant-admin.php:1162
+msgid "Settings"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:91
+#: admin/class-guardgiant-admin.php:92
+msgid "Activity Log"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:129
+msgid "This screen provides visibility to all login attempts on your site. You can customize the display of this screen to suit your needs."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:130
+msgid "You can customize the display of this screen’s contents in a number of ways:"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:131
+msgid "You can hide/display columns based on your needs and decide how many login attempts to list per screen using the Screen Options tab."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:132
+msgid "You can filter the login attempts by time period using the text links above the table, for example to only show login attempts within the last 7 days. The default view is to show all available data."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:133
+msgid "You can search for login attempts by a certain IP address using the search box."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:134
+msgid "You can refine the list to show only failed or successful login attempts or from trusted devices by using the dropdown menus above the table. Click the Filter button after making your selection."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:141
+#: admin/class-guardgiant-admin.php:1272
+msgid "Overview"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:149
+msgid "Screen Content"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:225
+#: admin/class-guardgiant-admin.php:1278
+msgid "Limit Login Attempts"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:233
+#: admin/class-guardgiant-admin.php:305
+msgid "After "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:234
+msgid "failed login attempts, lock out the account for "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:235
+#: includes/class-guardgiant-ip-failed-logins.php:421
+#: includes/class-guardgiant-user-failed-logins.php:307
+msgid "minutes."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:244
+#: admin/class-guardgiant-admin.php:1285
+msgid "Trusted Devices"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:250
+msgid "Never lock out login attempts from trusted devices."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:262
+msgid "Notify users when there is a successful login from a new device."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:280
+#: admin/class-guardgiant-admin.php:1307
+msgid "Captcha"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:288
+msgid "Add a Captcha field to the login form after "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:289
+msgid " failed login attempts."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:297
+#: admin/class-guardgiant-admin.php:1292
+msgid "Block IP Address"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:306
+msgid "failed login attempts, block the IP address for "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:307
+msgid " minutes."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:322
+msgid "Block again on each subsequent failed login attempt."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:337
+msgid "Increase the block time by "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:338
+msgid " minutes after each subsequent failed login attempt."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:353
+msgid "Reset after "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:354
+msgid " hours."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:369
+msgid "Reset after a successful login."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:370
+msgid "Do not enable this if an attacker can sign up for an account on your site."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:389
+msgid "User Whitelist"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:397
+msgid "This is a list of usernames that will never be locked out. Please enter one username per line."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:404
+msgid "IP Address Whitelist"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:412
+msgid "This is a list of IP addresses that will never be blocked. Please enter one IP address per line."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:429
+msgid "Site Key (reCaptcha v2)"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:442
+msgid "Secret Key (reCaptcha v2)"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:465
+#: admin/class-guardgiant-admin.php:1332
+msgid "Login Errors"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:471
+msgid "Don’t let WordPress reveal which users are valid in error messages."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:483
+msgid "Show lockout minutes remaining in error messages."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:489
+#: admin/class-guardgiant-admin.php:1339
+msgid "IP Address Geolocation"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:495
+msgid "Use geolocation service to lookup locations of IP addresses."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:501
+#: admin/class-guardgiant-admin.php:1346
+msgid "XMLRPC"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:507
+msgid "Disable XMLRPC service."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:521
+msgid "Auto Detect"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:529
+msgid "Auto detect reverse proxy settings."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:530
+msgid "Use manual settings below:"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:537
+#: admin/class-guardgiant-admin.php:762
+#: admin/class-guardgiant-admin.php:1353
+msgid "Reverse Proxy"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:543
+msgid "This site uses a reverse proxy/load balancer."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:549
+msgid "Trusted Header Field"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:556
+msgid "Your reverse proxy/load balancer will provide a header with the originating IP address."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:612
+msgid "Please configure your Google reCaptcha keys before enabling captchas. Please see the "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:612
+msgid "Captcha tab"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:699
+msgid "GuardGiant is a modern security plugin that protects your WordPress site from attackers whilst preserving the best possible user experience. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:701
+msgid "Limit Login Attempts On User Accounts"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:702
+msgid "When a genuine user makes a successful login to their account using their mobile phone, tablet, or computer GuardGiant starts treating that device as Trusted. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:704
+msgid "Failed login attempts from trusted devices are directed towards 'Lost Password' forms rather than being subject to account lockouts or additional counter measures."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:719
+msgid "Block IP Addresses Making Multiple Failed Login Attempts"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:720
+msgid "A Captcha is a strong counter-measure that is very hard for an automated process to solve. In addition, a progressive time delay (block) after a failed login attempt slows down attacks to the point where they become unviable. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:733
+msgid "Whitelists"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:734
+msgid "Whitelisting is a security feature that provides full access to certain users. GuardGiant offers a User Whitelist for trusted usernames that should never be locked out. The IP Address Whitelist allows you to create a list of trusted IP addresses (e.g. an office IP) which will never be blocked."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:747
+msgid "Google reCaptcha v2"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:748
+msgid "Google reCaptcha (version 2) provides the most robust way of differentiating between genuine users and automated processes (i.e. brute force scripts used by hackers). "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:749
+msgid "Need help with this page? "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:764
+msgid "Load balancers and CDNs (e.g. Cloudflare) are known as reverse proxies. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:765
+msgid "Due to the nature of these services, all visits to your website are logged with the IP address of the proxy rather than the visitor’s actual IP address. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:766
+msgid "To remedy this, the visitor's IP address is provided in a 'header field' which GuardGiant can pick up and use. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:767
+msgid "GuardGiant can detect the correct settings for you, however if you prefer you can manually set these details in this section. "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:781
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:793
+msgid "Email Notifications"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1144
+msgid "Recent Login Activity"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1249
+msgid "This screen allows you to configure the plugin to best suit your needs."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1250
+msgid "You must click the Save Changes button at the bottom of the screen for new settings to take effect."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1252
+msgid "The primary method used to block brute-force attacks is to simply lock out accounts after a defined number of failed attempts."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1253
+msgid "There are some downsides to this approach. For example, a persistent attacker could effectively disable an account "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1254
+msgid "by continuously trying different passwords starting a lockout on each attempt. To protect against this, you should enable"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1255
+msgid " Trusted Device functionality."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1257
+msgid "Trusted devices are the modern approach to login security, used by most large scale web sites to keep user accounts secure. It is recommended to enable this functionality."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1258
+msgid "When a genuine user makes a successful login to their account using their mobile phone, tablet, or computer GuardGiant starts treating their device as Trusted."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1259
+msgid " Failed login attempts from trusted devices are directed towards 'Lost Password' forms rather than being subject to account lockouts or additional counter measures."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1261
+msgid "An email sent to users when a login has been made from a new unrecognized device is a useful security measure that can alert users if their account has been compromised."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1263
+msgid "This section deals with repeated failed attempts from the same IP address. For most sites, the optimum configuration "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1264
+msgid "is a progressively longer block each time the IP address makes a failed login attempt."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1265
+msgid "The 'Reset after hours' field is important as IP addresses are dynamic and the same user may not be using the same IP from day to day. A 24 hour period is sensible for this setting."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1266
+msgid "Reset after successful login should not be enabled if you allow users to create their own accounts. An attacker could create their own account and then log in periodically to clear any blocks."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1301
+msgid "GuardGiant can place a Google ReCaptcha field on the login form, asking the user to click in a box to prove they are not a robot."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1302
+msgid "To preserve a good user experience, the captcha can be configured to only be presented where there have been multiple failed"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1303
+msgid " login attempts by the same IP address. Only the IP address in question will be challenged by the ReCaptcha."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1316
+msgid "Error messages displayed after a failed login will disclose whether a valid account has been used. For example the message 'incorrect username' is displayed."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1317
+msgid "Hackers can use this information to harvest a list of usernames that they can then attack. It is good practice to "
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1318
+msgid "obfuscate these messages to a simple incorrect username or password message."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1319
+msgid "If an account has been locked out or an IP address blocked, you can select whether to disclose to the user how many minutes they need to wait before retrying."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1321
+msgid "Choose whether to lookup the location of IP addresses that are logged in the activity log."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1323
+msgid "XML-RPC is a feature of WordPress that enables a remote device like the WordPress application on your smartphone to send data to your WordPress website."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1324
+msgid "To decide if you need XMLRPC, ask if you need any of the following:"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1325
+msgid "The WordPress app"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1325
+msgid "Trackbacks and pingbacks"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1325
+msgid "JetPack plugin"
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1326
+msgid "It is simple to re-enable XMLRPC so if you are unsure, you can disable first to see if any issues occur."
+msgstr ""
+
+#: admin/class-guardgiant-admin.php:1328
+msgid "Selecting Auto Detect will detect your proxy settings when you click the 'save changes' button. If you add or remove a proxy to your site you will need to detect/save the settings on this page."
+msgstr ""
+
+#: includes/class-guardgiant-activator.php:143
+msgid "Thank you for installing GuardGiant"
+msgstr ""
+
+#: includes/class-guardgiant-activator.php:144
+msgid "To get started, please"
+msgstr ""
+
+#: includes/class-guardgiant-activator.php:144
+msgid "review your settings here"
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:89
+msgid "GuardGiant: Your Google reCaptcha is not working as the secret key is invalid. Please "
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:89
+msgid "check your settings."
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:102
+#: includes/class-guardgiant-captcha.php:109
+#: includes/class-guardgiant-captcha.php:116
+#: includes/class-guardgiant-ip-failed-logins.php:413
+#: includes/class-guardgiant-user-failed-logins.php:297
+#: public/class-guardgiant-public.php:408
+msgid "Error"
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:102
+msgid "You did not complete the Captcha."
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:109
+msgid "The Captcha was not entered correctly."
+msgstr ""
+
+#: includes/class-guardgiant-captcha.php:116
+msgid "The Captcha has timed out. Please try again."
+msgstr ""
+
+#: includes/class-guardgiant-ip-failed-logins.php:414
+msgid "Your IP address is temporarily blocked."
+msgstr ""
+
+#: includes/class-guardgiant-ip-failed-logins.php:417
+#: includes/class-guardgiant-user-failed-logins.php:303
+msgid "Please retry in"
+msgstr ""
+
+#: includes/class-guardgiant-ip-failed-logins.php:419
+#: includes/class-guardgiant-user-failed-logins.php:305
+msgid "minute."
+msgstr ""
+
+#: includes/class-guardgiant-ip-failed-logins.php:425
+msgid "Please retry later."
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:390
+msgid "All logins"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:391
+msgid "Successful logins"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:392
+msgid "Failed logins"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:403
+msgid "Filter by result type"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:421
+msgid "All devices"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:422
+msgid "Trusted devices"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:423
+msgid "Unrecognized devices"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:434
+msgid "Filter by trusted device"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:474
+msgid "All"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:476
+msgid "Last 24 hours"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:477
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:478
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:513
+#: includes/class-guardgiant-table-login-activity-log.php:552
+msgid "Trusted"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:515
+#: includes/class-guardgiant-table-login-activity-log.php:554
+msgid "Unrecognized"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:577
+msgid "Delete"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:663
+msgid "Time"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:664
+msgid "Device"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:665
+msgid "IP Address"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:666
+msgid "IP Location"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:667
+msgid "Make"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:668
+msgid "Username"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:669
+msgid "Result"
+msgstr ""
+
+#: includes/class-guardgiant-table-login-activity-log.php:670
+msgid "Message"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:164
+msgid "at"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:178
+msgid "New device sign-in"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:180
+msgid "A new device has been used to sign in to your account. Please review the details below to make sure it was you:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:183
+msgid "Date &amp; time:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:186
+msgid "Account:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:189
+msgid "IP address:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:192
+msgid "Location:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:196
+#: includes/class-guardgiant-trusted-device.php:202
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:198
+msgid "Type of device:"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:204
+msgid "If this was you then no further action is required. If you don't recognize this sign-in, your account may have been accessed by an unauthorized third party. Please use the button below if you wish to change your password."
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:206
+msgid "Reset Your Password"
+msgstr ""
+
+#: includes/class-guardgiant-trusted-device.php:209
+msgid "New Sign-in To Your Account"
+msgstr ""
+
+#: includes/class-guardgiant-user-failed-logins.php:299
+msgid "Your account has been temporarily locked out. Too many failed login attempts were made."
+msgstr ""
+
+#: includes/class-guardgiant-user-failed-logins.php:310
+msgid "Please try again later."
+msgstr ""
+
+#: public/class-guardgiant-public.php:409
+msgid "Incorrect username or password."
+msgstr ""
+
+#: public/class-guardgiant-public.php:409
+msgid "Lost your password?"
+msgstr ""
+
+#: public/class-guardgiant-public.php:499
+msgid "Successful login."
+msgstr ""
+
+#: public/class-guardgiant-public.php:574
+msgid "You must be logged in to use this endpoint."
+msgstr ""
